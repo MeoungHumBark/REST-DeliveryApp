@@ -15,9 +15,9 @@ public class Food {
    @GeneratedValue(strategy = GenerationType.IDENTITY)
    private int id;
 
-    @Column(name = "fname")
+    @Column(name = "name")
     private String name;
 
-    @Column(name = "fprice")
+    @Column(name = "price")
     private int price;
 }
